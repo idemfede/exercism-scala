@@ -1,0 +1,67 @@
+[0m2021.04.23 18:04:14 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\allergies\src' for client vscode 1.55.2.[0m
+[0m2021.04.23 18:04:14 INFO  time: initialize in 0.27s[0m
+[0m2021.04.23 18:04:14 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.23 18:04:14 WARN  no build tool detected in workspace 'C:\Users\Federico\Exercism\scala\allergies\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.23 18:04:14 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 18:04:14 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\test\scala\AllergiesTest.scala[0m
+[0m2021.04.23 18:04:25 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.23 18:04:27 INFO  time: code lens generation in 12s[0m
+abr 23, 2021 6:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+abr 23, 2021 6:05:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+abr 23, 2021 6:06:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 73
+[0m2021.04.23 18:06:31 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+abr 23, 2021 6:06:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 78
+[0m2021.04.23 18:11:22 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 18:12:03 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+abr 23, 2021 6:12:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+abr 23, 2021 6:12:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 324
+abr 23, 2021 6:12:18 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+abr 23, 2021 6:12:18 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+[0m2021.04.23 18:12:26 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 18:12:29 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 18:12:29 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+abr 23, 2021 6:12:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 412
+abr 23, 2021 6:12:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 420
+[0m2021.04.23 18:12:32 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 18:12:32 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.23 23:00:10 INFO  shutting down Metals[0m
+[0m2021.04.24 12:13:54 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\allergies\src' for client vscode 1.55.2.[0m
+[0m2021.04.24 15:56:52 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\allergies\src' for client vscode 1.55.2.[0m
+[0m2021.04.24 15:56:52 INFO  time: initialize in 0.28s[0m
+[0m2021.04.24 15:56:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.24 15:56:52 WARN  no build tool detected in workspace 'C:\Users\Federico\Exercism\scala\allergies\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.24 15:56:52 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 15:56:54 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.24 15:56:55 INFO  time: code lens generation in 2.5s[0m
+[0m2021.04.24 16:40:17 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 16:40:33 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 16:41:04 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 16:41:11 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\test\scala\AllergiesTest.scala[0m
+abr 24, 2021 4:41:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 61
+abr 24, 2021 4:41:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+abr 24, 2021 4:41:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 74
+[0m2021.04.24 16:42:03 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 16:42:11 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 16:42:59 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.24 18:47:35 INFO  shutting down Metals[0m
+[0m2021.04.26 11:55:37 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\allergies\src' for client vscode 1.55.2.[0m
+[0m2021.04.26 11:55:37 INFO  time: initialize in 0.29s[0m
+[0m2021.04.26 11:55:37 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.26 11:55:37 WARN  no build tool detected in workspace 'C:\Users\Federico\Exercism\scala\allergies\src'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.26 11:55:37 WARN  no build target for: C:\Users\Federico\Exercism\scala\allergies\src\main\scala\Allergies.scala[0m
+[0m2021.04.26 11:55:39 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.26 11:55:41 INFO  time: code lens generation in 2.97s[0m
+[0m2021.04.26 11:59:19 INFO  shutting down Metals[0m

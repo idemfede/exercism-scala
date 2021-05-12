@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala:6:16: not found: value a[0m
+[0m[[0m[31merror[0m] [0m[0m  def db: DB = a                                  //> db: => Wk4.DB[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

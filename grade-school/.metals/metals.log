@@ -1,0 +1,655 @@
+[0m2021.04.10 18:09:40 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\Federico\Exercism\scala\grade-school' for client vscode 1.55.1.[0m
+[0m2021.04.10 18:09:40 INFO  time: initialize in 0.31s[0m
+[0m2021.04.10 18:09:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.10 18:09:40 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 18:09:45 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.10 18:09:47 INFO  time: code lens generation in 5.53s[0m
+[0m2021.04.10 18:09:47 INFO  time: code lens generation in 2.4s[0m
+[0m2021.04.10 18:10:23 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool copy.scala[0m
+abr 10, 2021 6:10:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+[0m2021.04.10 18:13:23 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 18:13:24 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+abr 10, 2021 6:13:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+abr 10, 2021 6:13:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 385
+[31merror[39m: src\main\scala\GradeSchool.worksheet.sc:4:3: not found: value DB
+  DB(2).getos
+  ^^
+[0m2021.04.10 18:14:26 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.10 18:14:26 INFO  time: evaluated worksheet 'GradeSchool.worksheet.sc' in 37s[0m
+abr 10, 2021 6:57:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 487
+[0m2021.04.10 19:26:07 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\test\scala\GradeSchoolTest.scala[0m
+abr 10, 2021 7:26:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 510
+abr 10, 2021 7:26:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..13]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..13]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 32 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+abr 10, 2021 7:26:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..13]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..13]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 17 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+abr 10, 2021 7:26:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 21 is not a valid line number, allowed [0..13]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 21 is not a valid line number, allowed [0..13]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 21 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+[0m2021.04.10 19:26:21 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 19:26:23 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+abr 10, 2021 7:26:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.04.10 19:26:25 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+abr 10, 2021 7:26:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 22 is not a valid line number, allowed [0..13]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 22 is not a valid line number, allowed [0..13]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 22 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+abr 10, 2021 7:26:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..13]
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..13]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:292)
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:308)
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:661)
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646)
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:488)
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:1990)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: 28 is not a valid line number, allowed [0..13]
+	at scala.meta.internal.inputs.InternalInput.lineToOffset(InternalInput.scala:37)
+	at scala.meta.internal.inputs.InternalInput.lineToOffset$(InternalInput.scala:32)
+	at scala.meta.inputs.Input$VirtualFile.lineToOffset(Input.scala:80)
+	at scala.meta.inputs.Position$Range$.apply(Position.scala:59)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionPositionLspInverse.toMeta(MtagsEnrichments.scala:200)
+	at scala.meta.internal.parsing.Trees.$anonfun$findLastEnclosingAt$5(Trees.scala:71)
+	at scala.Option.flatMap(Option.scala:271)
+	at scala.meta.internal.parsing.Trees.findLastEnclosingAt(Trees.scala:70)
+	at scala.meta.internal.metals.codeactions.InsertInferredType.$anonfun$contribute$1(InsertInferredType.scala:80)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	... 4 more
+
+abr 10, 2021 7:26:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:14: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.04.10 19:26:34 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+abr 10, 2021 7:26:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+abr 10, 2021 7:26:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Fgrade-school%2Fsrc%2Fmain%2Fscala%2FGradeSchool.scala:15: error: expected class or object definition type
+  type DB = Map[Int, Seq[String]]
+  ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4831)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4838)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5052)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5018)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5001)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:817)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:833)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5000)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5006)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5063)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.04.10 19:26:38 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 19:26:39 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+abr 10, 2021 7:26:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 567
+[0m2021.04.10 19:27:01 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 19:27:01 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\test\scala\GradeSchoolTest.scala[0m
+[0m2021.04.10 19:27:01 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool copy.scala[0m
+abr 10, 2021 7:27:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 577
+[0m2021.04.10 19:27:31 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 19:28:02 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 19:28:03 WARN  no build target for: C:\Users\Federico\Exercism\scala\grade-school\src\main\scala\GradeSchool.scala[0m
+[0m2021.04.10 22:24:08 INFO  shutting down Metals[0m
+[0m2021.04.10 22:56:04 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\Federico\Exercism\scala\grade-school' for client vscode 1.55.1.[0m
+[0m2021.04.10 22:56:04 INFO  time: initialize in 0.28s[0m
+[0m2021.04.10 22:56:04 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.10 22:56:04 INFO  skipping build import with status 'Requested'[0m
+[0m2021.04.10 22:56:12 INFO  shutting down Metals[0m

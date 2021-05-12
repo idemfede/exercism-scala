@@ -1,0 +1,7 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\matrix\src\main\scala\Matrix.scala:3:40: recursive method row needs result type[0m
+[0m[[0m[31merror[0m] [0m[0m    def row(x: Integer)= x.split("\n")(row).split(" ").toVector[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\matrix\src\main\scala\Matrix.scala:5:30: value split is not a member of Integer[0m
+[0m[[0m[31merror[0m] [0m[0m    def column(x: Integer)=x.split("\n").foldLeft(List[String]())((u, v) => u :+ v.split(" ")(row))[0m
+[0m[[0m[31merror[0m] [0m[0m                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

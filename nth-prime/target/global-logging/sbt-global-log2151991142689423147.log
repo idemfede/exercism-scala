@@ -1,0 +1,6 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(79a988e4-38c2-4e20-892f-35f89709ed30), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@77c23d90, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Federico\Exercism\scala\nth-prime\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 9 seconds, 13.303 (154,0%) were spent in GC. [Heap: 0,06GB free of 0,44GB, max 0,44GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 10 seconds, 14.642 (148,5%) were spent in GC. [Heap: 0,06GB free of 0,44GB, max 0,44GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m

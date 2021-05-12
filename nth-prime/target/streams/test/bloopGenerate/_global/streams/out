@@ -1,0 +1,4 @@
+[debug] [nth-prime-test] Classpath dependencies List()
+[debug] [nth-prime-test] Dependencies from configurations List(nth-prime)
+[debug] Bloop wrote the configuration of project 'nth-prime-test' to 'C:\Users\Federico\Exercism\scala\nth-prime\.bloop\nth-prime-test.json'
+[success] Generated .bloop\nth-prime-test.json

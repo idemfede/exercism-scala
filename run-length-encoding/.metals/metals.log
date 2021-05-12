@@ -1,0 +1,545 @@
+[0m2021.05.04 17:35:10 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\run-length-encoding' for client vscode 1.55.2.[0m
+[0m2021.05.04 17:35:10 INFO  time: initialize in 0.29s[0m
+[0m2021.05.04 17:35:10 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.04 17:35:13 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+[0m2021.05.04 17:35:20 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 17:35:21 INFO  time: code lens generation in 7.22s[0m
+[0m2021.05.04 17:35:21 INFO  time: code lens generation in 7.82s[0m
+[0m2021.05.04 17:36:16 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 17:36:29 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 5:36:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 55
+may 04, 2021 5:36:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 64
+may 04, 2021 5:36:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 68
+[0m2021.05.04 17:36:47 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 5:36:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2841)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:829)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:839)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2793)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2791)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2775)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2755)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$14(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2218)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2113)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2141)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4205)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3972)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4889)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4905)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4885)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:732)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4742)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4466)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4458)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4855)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4843)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5022)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5005)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5004)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+may 04, 2021 5:36:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2841)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:829)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:839)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2793)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2791)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2775)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2755)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$14(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2218)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2113)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2141)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4205)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3972)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4889)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4905)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4885)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:732)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4742)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4466)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4458)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4855)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4843)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5022)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5005)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5004)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+may 04, 2021 5:36:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2841)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:829)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:839)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2793)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2791)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2775)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2755)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$14(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2218)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2113)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2141)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4205)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3972)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4889)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4905)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4885)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:732)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4742)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4466)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4458)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4855)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4843)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5022)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5005)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5004)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+may 04, 2021 5:36:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2841)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:829)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:839)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2793)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2791)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2775)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2755)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$14(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2218)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2113)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2141)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4205)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3972)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4889)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4905)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4885)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:732)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4742)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4466)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4458)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4855)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4843)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5022)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5005)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5004)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+may 04, 2021 5:36:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:3: error: illegal start of simple expression
+}
+^
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2841)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:829)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:839)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2793)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2791)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2775)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2755)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$14(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:2332)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2218)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:2113)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:2141)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:4205)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:4134)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3987)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3972)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4895)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1$1.applyOrElse(ScalametaParser.scala:4889)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.templateStats(ScalametaParser.scala:4905)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4885)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:732)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4734)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4742)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4727)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:4466)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:4458)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:4324)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4855)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$topStat$1.applyOrElse(ScalametaParser.scala:4843)
+	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:38)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4833)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4842)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5056)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:5022)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:5005)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:820)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:836)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:5004)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:5010)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.05.04 17:36:53 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 17:37:00 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 17:41:28 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+Exception in thread "pool-1-thread-10" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:148)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:62)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:203)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:196)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+may 04, 2021 6:48:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+[0m2021.05.04 18:48:56 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:49:28 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 6:49:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 243
+[0m2021.05.04 18:49:48 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+[0m2021.05.04 18:50:06 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+may 04, 2021 6:50:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 335
+[0m2021.05.04 18:50:13 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:50:15 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 6:50:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 363
+[0m2021.05.04 18:50:18 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+[0m2021.05.04 18:50:24 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+may 04, 2021 6:50:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 378
+may 04, 2021 6:51:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 388
+may 04, 2021 6:51:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 393
+something's wrong: no file:///C:/Users/Federico/Exercism/scala/run-length-encoding/src/main/scala/RunLengthEncoding.scala in List[Char]RangePosition(file:///C:/Users/Federico/Exercism/scala/run-length-encoding/src/main/scala/RunLengthEncoding.scala, 50, 50, 60)
+[0m2021.05.04 18:51:27 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:51:34 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:52:36 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:4: error: illegal start of simple expression
+      var x = "AABBBECCCCE" toList                    //> x  : List[Char] = List(A, A, B, B, B, E, C, C, C, C, E)
+      ^[0m
+[0m2021.05.04 18:52:48 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:18: error: expected class or object definition
+  def decode(input: String): String =
+  ^[0m
+[0m2021.05.04 18:52:53 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:52:58 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:18: error: expected class or object definition
+  def decode(input: String): String =
+  ^[0m
+[0m2021.05.04 18:53:03 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:20: error: end of file expected but } found
+}
+^[0m
+[0m2021.05.04 18:53:03 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:20: error: end of file expected but } found
+}
+^[0m
+[0m2021.05.04 18:53:03 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:20: error: end of file expected but } found
+}
+^[0m
+[0m2021.05.04 18:53:03 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:20: error: end of file expected but } found
+}
+^[0m
+[0m2021.05.04 18:53:10 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 6:53:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:855)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:861)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.05.04 18:53:10 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^[0m
+[0m2021.05.04 18:53:11 ERROR scalafmt: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^[0m
+may 04, 2021 6:53:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:855)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:861)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+may 04, 2021 6:53:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+file%3A%2F%2F%2FC%3A%2FUsers%2FFederico%2FExercism%2Fscala%2Frun-length-encoding%2Fsrc%2Fmain%2Fscala%2FRunLengthEncoding.scala:15: error: end of file expected but } found
+}  }
+   ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:855)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:861)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5067)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:51)
+
+[0m2021.05.04 18:53:16 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:53:39 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 6:53:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 624
+may 04, 2021 6:53:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 629
+[0m2021.05.04 18:54:02 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 6:54:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 654
+may 04, 2021 6:54:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 660
+[0m2021.05.04 18:54:10 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 18:54:11 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 19:20:46 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 19:20:47 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 19:20:49 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 19:20:51 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 7:21:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 713
+[0m2021.05.04 19:21:19 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\test\scala\RunLengthEncodingTests.scala[0m
+may 04, 2021 8:08:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 752
+[0m2021.05.04 20:08:47 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 20:08:49 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+may 04, 2021 8:08:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 786
+may 04, 2021 8:10:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 805
+may 04, 2021 8:11:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 815
+may 04, 2021 8:16:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 830
+[0m2021.05.04 20:16:57 WARN  no build target for: C:\Users\Federico\Exercism\scala\run-length-encoding\src\main\scala\RunLengthEncoding.scala[0m
+[0m2021.05.04 20:17:31 INFO  shutting down Metals[0m

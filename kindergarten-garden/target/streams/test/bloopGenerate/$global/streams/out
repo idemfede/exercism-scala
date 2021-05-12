@@ -1,0 +1,4 @@
+[debug] [kindergarten-garden-test] Classpath dependencies List()
+[debug] [kindergarten-garden-test] Dependencies from configurations List(kindergarten-garden)
+[debug] Bloop wrote the configuration of project 'kindergarten-garden-test' to 'C:\Users\Federico\Exercism\scala\kindergarten-garden\.bloop\kindergarten-garden-test.json'
+[success] Generated .bloop\kindergarten-garden-test.json

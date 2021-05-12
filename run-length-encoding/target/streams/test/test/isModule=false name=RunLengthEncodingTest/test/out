@@ -1,0 +1,14 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mRunLengthEncodingTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - empty string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - single characters only are encoded without count[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - string with no single characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - single characters mixed with repeated characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - multiple whitespace mixed in string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- encode - lowercase characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - empty string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - single characters only[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - string with no single characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - single characters with repeated characters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - multiple whitespace mixed in string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- decode - lower case string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- consistency - encode followed by decode gives original string[0m[0m

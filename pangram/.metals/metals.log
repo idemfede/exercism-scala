@@ -1,0 +1,37 @@
+[0m2021.04.13 10:49:23 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\Federico\Exercism\scala\pangram' for client vscode 1.55.1.[0m
+[0m2021.04.13 10:49:23 INFO  time: initialize in 0.31s[0m
+[0m2021.04.13 10:49:24 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.13 10:49:24 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+[0m2021.04.13 10:49:29 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+abr 13, 2021 10:49:29 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.04.13 10:49:29 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\test\scala\PangramTest.scala[0m
+[0m2021.04.13 10:49:30 INFO  time: code lens generation in 6.26s[0m
+[0m2021.04.13 10:49:30 INFO  time: code lens generation in 1.33s[0m
+[0m2021.04.13 10:49:30 INFO  time: code lens generation in 1.33s[0m
+abr 13, 2021 10:49:59 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+[0m2021.04.13 10:49:59 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+abr 13, 2021 10:50:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+[0m2021.04.13 10:49:59 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangram.scala[0m
+abr 13, 2021 10:50:00 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+[0m2021.04.13 10:50:00 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+abr 13, 2021 10:50:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+[0m2021.04.13 10:50:00 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangram.scala[0m
+abr 13, 2021 10:50:02 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 29
+[0m2021.04.13 10:50:02 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+abr 13, 2021 10:50:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34
+[0m2021.04.13 10:50:04 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\test\scala\PangramTest.scala[0m
+abr 13, 2021 10:51:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+[0m2021.04.13 10:51:48 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangram.scala[0m
+abr 13, 2021 10:51:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 44
+[0m2021.04.13 10:51:49 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+[0m2021.04.13 10:54:08 WARN  no build target for: C:\Users\Federico\Exercism\scala\pangram\src\main\scala\Pangrams.scala[0m
+[0m2021.04.13 10:58:48 INFO  shutting down Metals[0m

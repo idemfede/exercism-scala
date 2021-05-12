@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mKindergartenGardenTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial garden - garden with single student[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial garden - different garden with single student[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- partial garden - garden with two students[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple students for the same garden with three students, partial garden - second student's garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- multiple students for the same garden with three students, partial garden - third student's garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- full garden - first student's garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- full garden - second student's garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- full garden - second to last student's garden[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- full garden - last student's garden[0m[0m

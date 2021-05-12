@@ -1,0 +1,288 @@
+[0m2021.05.04 16:22:05 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\nth-prime' for client vscode 1.55.2.[0m
+[0m2021.05.04 16:22:05 INFO  time: initialize in 0.28s[0m
+[0m2021.05.04 16:22:05 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.04 16:22:05 WARN  no build target for: C:\Users\Federico\Exercism\scala\nth-prime\src\main\scala\NthPrime.scala[0m
+[0m2021.05.04 16:22:08 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 16:22:08 INFO  running 'C:\Program Files\Java\jdk1.8.0_271\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -Dsbt.version=1.5.0 -jar C:\Users\Federico\AppData\Local\Temp\metals140310996537713591\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.05.04 16:22:09 ERROR [info] [launcher] getting org.scala-sbt sbt 1.5.0  (this may take some time)...[0m
+[0m2021.05.04 16:22:09 INFO  time: code lens generation in 3.49s[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.5.0/sbt-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.5.0/io_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.5.0/run_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.5.0/command_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.5.0/scripted-plugin_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.5.0/main-settings_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.5.0/collections_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.5.0/actions_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-lm-integration_2.12/1.5.0/zinc-lm-integration_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.5.0/logic_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.3.0/launcher-interface-1.3.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.13/scala-library-2.12.13.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.5.0/util-logging_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.5.0/main_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR :: loading settings :: url = jar:file:/C:/Users/Federico/AppData/Local/Temp/metals140310996537713591/sbt-launch.jar!/org/apache/ivy/core/settings/ivysettings.xml[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/io/get-coursier/lm-coursier-shaded_2.12/2.0.8/lm-coursier-shaded_2.12-2.0.8.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.5.0/librarymanagement-core_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-lm-integration_2.12;1.5.0!zinc-lm-integration_2.12.jar (238ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.5.0/librarymanagement-ivy_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.3.0!launcher-interface.jar (356ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.5.0/compiler-interface-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.5.0!scripted-plugin_2.12.jar (454ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.5.0/zinc-compile_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.5.0!logic_2.12.jar (492ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.5.0/util-relation_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#sbt;1.5.0!sbt.jar (523ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.5.0/util-position_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.5.0!run_2.12.jar (542ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.13/scala-reflect-2.12.13.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.5.0!zinc-compile_2.12.jar (374ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.5.0/completion_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.5.0!actions_2.12.jar (838ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.5.0/task-system_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.5.0!util-relation_2.12.jar (347ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.5.0/tasks_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.5.0!util-position_2.12.jar (386ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.5.0/testing_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.5.0!util-logging_2.12.jar (910ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.5.0/util-tracking_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:31 ERROR 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.5.0!collections_2.12.jar (912ms)[0m
+[0m2021.05.04 16:22:31 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal/3.19.0/jline-terminal-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.5.0!compiler-interface.jar (700ms)[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.5.0!command_2.12.jar (1057ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.5.0/zinc-apiinfo_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.5.0/zinc-classpath_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.5.0!util-tracking_2.12.jar (265ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.5.0/zinc_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.5.0!io_2.12.jar (1180ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.5.0/util-control_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.5.0!main-settings_2.12.jar (1183ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/jline/jline/2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493/jline-2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.5.0!librarymanagement-ivy_2.12.jar (956ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-reader/3.19.0/jline-reader-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.5.0!tasks_2.12.jar (374ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-builtins/3.19.0/jline-builtins-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.5.0!task-system_2.12.jar (459ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.5.0/util-interface-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.5.0!testing_2.12.jar (421ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.5.0/core-macros_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal;3.19.0!jline-terminal.jar (457ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jna/3.19.0/jline-terminal-jna-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.5.0!completion_2.12.jar (593ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-terminal-jansi/3.19.0/jline-terminal-jansi-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.5.0!util-control_2.12.jar (247ms)[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.5.0!zinc-apiinfo_2.12.jar (371ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.13/scala-compiler-2.12.13.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/fusesource/jansi/jansi/2.1.0/jansi-2.1.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.5.0!zinc_2.12.jar (268ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/jline/jline-style/3.19.0/jline-style-3.19.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.5.0!zinc-classpath_2.12.jar (438ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.5.0/util-cache_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-reader;3.19.0!jline-reader.jar (330ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.5.0/test-agent-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.5.0!util-interface.jar (242ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.5.0/compiler-bridge_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt.jline#jline;2.14.7-sbt-a1b0ffbb8f64bb820f4f84a0c07a0c0964507493!jline.jar (373ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.5.0/zinc-classfile_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.5.0!core-macros_2.12.jar (356ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.5.0/zinc-core_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jansi;3.19.0!jline-terminal-jansi.jar (299ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.5.0/zinc-persist_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-style;3.19.0!jline-style.jar (300ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.5.0/zinc-compile-core_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-terminal-jna;3.19.0!jline-terminal-jna.jar (405ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.5.0/zinc-persist-core-assembly-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.jline#jline-builtins;3.19.0!jline-builtins.jar (561ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.5.0/protocol_2.12-1.5.0.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.5.0!librarymanagement-core_2.12.jar (1771ms)[0m
+[0m2021.05.04 16:22:32 ERROR downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.12/2.4.2/scala-collection-compat_2.12-2.4.2.jar ...[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.5.0!test-agent.jar (319ms)[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.5.0!zinc-classfile_2.12.jar (411ms)[0m
+[0m2021.05.04 16:22:32 ERROR 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.5.0!util-cache_2.12.jar (473ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.fusesource.jansi#jansi;2.1.0!jansi.jar (644ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#compiler-bridge_2.12;1.5.0!compiler-bridge_2.12.jar (696ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.scala-lang.modules#scala-collection-compat_2.12;2.4.2!scala-collection-compat_2.12.jar (526ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.5.0!zinc-persist_2.12.jar (603ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.5.0!zinc-core_2.12.jar (755ms)[0m
+[0m2021.05.04 16:22:33 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.5.0!zinc-compile-core_2.12.jar (890ms)[0m
+[0m2021.05.04 16:22:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.5.0!protocol_2.12.jar (1309ms)[0m
+[0m2021.05.04 16:22:35 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.13!scala-reflect.jar (2821ms)[0m
+[0m2021.05.04 16:22:35 ERROR 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.5.0!main_2.12.jar (3778ms)[0m
+[0m2021.05.04 16:22:36 ERROR 	[SUCCESSFUL ] org.scala-sbt#zinc-persist-core-assembly;1.5.0!zinc-persist-core-assembly.jar (3265ms)[0m
+[0m2021.05.04 16:22:36 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.13!scala-library.jar (5332ms)[0m
+[0m2021.05.04 16:22:38 ERROR 	[SUCCESSFUL ] io.get-coursier#lm-coursier-shaded_2.12;2.0.8!lm-coursier-shaded_2.12.jar (6703ms)[0m
+[0m2021.05.04 16:22:38 ERROR 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.13!scala-compiler.jar (5786ms)[0m
+[0m2021.05.04 16:22:38 ERROR :: retrieving :: org.scala-sbt#boot-app[0m
+[0m2021.05.04 16:22:38 ERROR 	confs: [default][0m
+[0m2021.05.04 16:22:38 ERROR 	83 artifacts copied, 0 already retrieved[0m
+[0m2021.05.04 16:22:38 ERROR [info] [launcher] getting Scala 2.12.13 (for sbt)...[0m
+[0m2021.05.04 16:22:38 ERROR :: retrieving :: org.scala-sbt#boot-scala[0m
+[0m2021.05.04 16:22:38 ERROR 	confs: [default][0m
+[0m2021.05.04 16:22:38 ERROR 	6 artifacts copied, 0 already retrieved[0m
+[0m2021.05.04 16:22:40 INFO  [info] Updated file C:\Users\Federico\Exercism\scala\nth-prime\project\build.properties: set sbt.version to 1.5.0[0m
+[0m2021.05.04 16:22:40 INFO  [info] welcome to sbt 1.5.0 (Oracle Corporation Java 1.8.0_271)[0m
+[0m2021.05.04 16:22:41 INFO  [info] loading settings for project nth-prime-build-build from metals.sbt ...[0m
+[0m2021.05.04 16:22:41 INFO  [info] loading project definition from C:\Users\Federico\Exercism\scala\nth-prime\project\project[0m
+[0m2021.05.04 16:22:48 INFO  [info] loading settings for project nth-prime-build from metals.sbt ...[0m
+[0m2021.05.04 16:22:48 INFO  [info] loading project definition from C:\Users\Federico\Exercism\scala\nth-prime\project[0m
+[0m2021.05.04 16:22:55 INFO  [success] Generated .bloop\nth-prime-build.json[0m
+[0m2021.05.04 16:22:55 INFO  [success] Total time: 7 s, completed 04/05/2021 16:22:55[0m
+[0m2021.05.04 16:22:55 INFO  [info] loading settings for project nth-prime from build.sbt ...[0m
+[0m2021.05.04 16:22:55 INFO  [info] set current project to nth-prime (in build file:/C:/Users/Federico/Exercism/scala/nth-prime/)[0m
+[0m2021.05.04 16:23:02 INFO  [success] Generated .bloop\nth-prime.json[0m
+[0m2021.05.04 16:23:02 INFO  [success] Generated .bloop\nth-prime-test.json[0m
+[0m2021.05.04 16:23:02 INFO  [success] Total time: 6 s, completed 04/05/2021 16:23:02[0m
+[0m2021.05.04 16:23:02 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.05.04 16:23:02 INFO  time: ran 'sbt bloopInstall' in 54s[0m
+[0m2021.05.04 16:23:02 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 33381'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8-19-4d9f966b...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Federico\Exercism\scala\nth-prime\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Federico\Exercism\scala\nth-prime\.bloop\nth-prime-test.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Federico\Exercism\scala\nth-prime\.bloop\nth-prime.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => C:\Users\Federico\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\jline\jline\2.14.6\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\Federico\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\1.0.6\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\Federico\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.8\scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Federico\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.8\scala-library-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Federico\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.8\scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'nth-prime'
+[0m[32m[D][0m Missing analysis file for project 'nth-prime-test'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:33381...
+The server is listening for incoming connections at tcp://127.0.0.1:33381...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 16:23:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 16:23:11 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 40112'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:40112...
+The server is listening for incoming connections at tcp://127.0.0.1:40112...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 16:23:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 16:23:13 INFO  time: Connected to build server in 10s[0m
+[0m2021.05.04 16:23:13 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.04 16:23:16 INFO  time: indexed workspace in 2.5s[0m
+[0m2021.05.04 16:25:16 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 16:25:17 INFO  compiling nth-prime-test (1 scala source)[0m
+[0m2021.05.04 16:25:17 INFO  time: compiled nth-prime in 1.78s[0m
+[0m2021.05.04 16:25:17 INFO  time: compiled nth-prime-test in 0.41s[0m
+may 04, 2021 4:25:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+[0m2021.05.04 16:25:23 INFO  compiling nth-prime-test (1 scala source)[0m
+[0m2021.05.04 16:25:23 INFO  time: compiled nth-prime-test in 0.16s[0m
+may 04, 2021 4:25:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+[0m2021.05.04 16:25:37 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 16:25:37 INFO  time: compiled nth-prime in 0.58s[0m
+[0m2021.05.04 16:25:47 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 16:25:47 INFO  time: compiled nth-prime in 34ms[0m
+[0m2021.05.04 16:58:28 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 16:58:28 INFO  time: compiled nth-prime in 33ms[0m
+may 04, 2021 4:59:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 116
+Exception in thread "pool-1-thread-26" java.lang.Error: java.lang.InterruptedException
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1155)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionCancelChecker.isCancelled(MtagsEnrichments.scala:148)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$isCancelled$1$adapted(FormattingProvider.scala:62)
+	at scala.Option.exists(Option.scala:376)
+	at scala.meta.internal.metals.FormattingProvider.isCancelled(FormattingProvider.scala:62)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1(FormattingProvider.scala:203)
+	at scala.meta.internal.metals.FormattingProvider.$anonfun$handleMissingFile$1$adapted(FormattingProvider.scala:196)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	... 2 more
+[0m2021.05.04 17:01:21 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 17:01:21 INFO  time: compiled nth-prime in 0.5s[0m
+[0m2021.05.04 17:01:50 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 17:01:50 INFO  time: compiled nth-prime in 0.23s[0m
+may 04, 2021 5:01:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 223
+[0m2021.05.04 17:01:59 INFO  compiling nth-prime-test (1 scala source)[0m
+[0m2021.05.04 17:01:59 INFO  time: compiled nth-prime-test in 0.68s[0m
+[0m2021.05.04 17:02:03 INFO  compiling nth-prime-test (1 scala source)[0m
+[0m2021.05.04 17:02:03 INFO  time: compiled nth-prime-test in 0.43s[0m
+may 04, 2021 5:22:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+[0m2021.05.04 17:22:10 INFO  compiling nth-prime (1 scala source)[0m
+[0m2021.05.04 17:22:10 INFO  time: compiled nth-prime in 0.18s[0m
+[0m2021.05.04 17:23:37 INFO  shutting down Metals[0m
+[0m2021.05.04 17:23:37 INFO  Shut down connection with build server.[0m
+[0m2021.05.04 17:23:37 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.05.04 17:23:46 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\nth-prime' for client vscode 1.55.2.[0m
+[0m2021.05.04 17:23:46 INFO  time: initialize in 0.28s[0m
+[0m2021.05.04 17:23:46 INFO  Attempting to connect to the build server...[0m
+[0m2021.05.04 17:23:46 WARN  no build target for: C:\Users\Federico\Exercism\scala\nth-prime\src\main\scala\NthPrime.scala[0m
+[0m2021.05.04 17:23:46 INFO  skipping build import with status 'Installed'[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 34331'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:34331...
+The server is listening for incoming connections at tcp://127.0.0.1:34331...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 17:23:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 17:23:47 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 43197'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:43197...
+The server is listening for incoming connections at tcp://127.0.0.1:43197...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.05.04 17:23:48 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.05.04 17:23:48 INFO  time: Connected to build server in 0.98s[0m
+[0m2021.05.04 17:23:48 INFO  Connected to Build server: Bloop v1.4.8-19-4d9f966b[0m
+[0m2021.05.04 17:23:48 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 17:23:50 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.05.04 17:23:50 INFO  time: code lens generation in 3.4s[0m
+[0m2021.05.04 17:23:51 INFO  time: indexed workspace in 2.64s[0m
+[0m2021.05.04 17:35:03 INFO  shutting down Metals[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...[0m
+2021.05.04 17:35:03No more data in the server stdin, exiting... INFO  Shut down connection with build server.[0m
+
+[0m2021.05.04 17:35:03 No more data in the client stdin, exiting...INFO 
+ Shut down connection with build server.[0m
+No more data in the client stdin, exiting...

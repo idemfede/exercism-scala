@@ -1,0 +1,16 @@
+[0m2021.04.23 15:50:50 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\Federico\Exercism\scala\house' for client vscode 1.55.2.[0m
+[0m2021.04.23 15:50:50 INFO  time: initialize in 0.28s[0m
+[0m2021.04.23 15:50:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.23 15:50:50 WARN  no build target for: C:\Users\Federico\Exercism\scala\house\src\test\scala\HouseTest.scala[0m
+[0m2021.04.23 15:50:56 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.23 15:50:57 INFO  time: code lens generation in 6.71s[0m
+abr 23, 2021 3:51:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+[0m2021.04.23 15:51:07 WARN  no build target for: C:\Users\Federico\Exercism\scala\house\src\main\scala\House.scala[0m
+abr 23, 2021 3:51:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+[0m2021.04.23 15:51:08 WARN  no build target for: C:\Users\Federico\Exercism\scala\house\src\test\scala\HouseTest.scala[0m
+[0m2021.04.23 16:01:57 WARN  no build target for: C:\Users\Federico\Exercism\scala\house\src\main\scala\House.scala[0m
+abr 23, 2021 4:02:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+[0m2021.04.23 16:03:01 INFO  shutting down Metals[0m

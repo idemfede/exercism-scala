@@ -1,0 +1,18 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(33bf2afd-bff9-4124-aab5-ef20c57d1165), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@370225c7, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Federico\Exercism\scala\nth-prime\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Federico\Exercism\scala\nth-prime\target\scala-2.12\test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNthPrimeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- first prime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- second prime (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- sixth prime (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- big prime (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- there is no zeroth prime (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 147 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 4[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed 04/05/2021 17:01:54[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

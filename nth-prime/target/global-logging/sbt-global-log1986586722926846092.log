@@ -1,0 +1,16 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(af60ba36-f444-4b77-8ade-5eb30f3dcbf7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@29892a77, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\Federico\Exercism\scala\nth-prime\target\scala-2.12\test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 5 seconds, 12.668 (256,6%) were spent in GC. [Heap: 0,05GB free of 0,45GB, max 0,45GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[33mwarn[0m] [0m[0mCanceling execution...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 10 seconds, 454.333 (4577,7%) were spent in GC. [Heap: 0,39GB free of 0,45GB, max 0,45GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mNthPrimeTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- first prime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- second prime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- sixth prime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31mNthPrimeTest *** ABORTED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.lang.OutOfMemoryError: Java heap space[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m

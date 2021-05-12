@@ -1,0 +1,22 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mAllYourBaseTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- single bit one to decimal[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- binary to single decimal (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- single decimal to binary (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- binary to multiple decimal (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- decimal to binary (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- trinary to hexadecimal (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- hexadecimal to trinary (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- 15-bit integer (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- empty list (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- single zero (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- multiple zeros (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- leading zeros (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- input base is one (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- input base is zero (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- input base is negative (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- negative digit (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- invalid positive digit (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- output base is one (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- output base is zero (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- output base is negative (pending)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[33m- both bases are negative (pending)[0m[0m

@@ -1,0 +1,140 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:7:36: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0m    Garden.defaultGarden("RC\nGG").plants("Alice") should be([0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:8:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Radishes, Plant.Clover, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:8:28: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Radishes, Plant.Clover, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:8:42: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Radishes, Plant.Clover, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:8:55: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Radishes, Plant.Clover, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:13:36: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0m    Garden.defaultGarden("VC\nRC").plants("Alice") should be([0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:14:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Clover, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:14:27: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Clover, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:14:41: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Clover, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:14:57: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Clover, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:19:40: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0m    Garden.defaultGarden("VVCG\nVVRC").plants("Bob") should be([0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:20:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:20:26: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:20:39: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:20:55: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Radishes, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:26:44: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0m    Garden.defaultGarden("VVCCGG\nVVCCGG").plants("Bob") should be([0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:27:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Clover, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:27:26: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Clover, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:27:40: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Clover, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:27:54: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Clover, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:33:44: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0m    Garden.defaultGarden("VVCCGG\nVVCCGG").plants("Charlie") should be([0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:34:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Grass, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:34:25: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Grass, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:34:38: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Grass, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:34:51: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Grass, Plant.Grass, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:41:8: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value plants'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .plants("Alice") should be([0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:42:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Radishes, Plant.Violets, Plant.Radishes))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:42:27: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Radishes, Plant.Violets, Plant.Radishes))[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:42:43: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Radishes, Plant.Violets, Plant.Radishes))[0m
+[0m[[0m[31merror[0m] [0m[0m                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:42:58: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Violets, Plant.Radishes, Plant.Violets, Plant.Radishes))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:49:8: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value plants'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .plants("Bob") should be([0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:50:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:50:26: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:50:39: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:50:53: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Clover, Plant.Grass, Plant.Clover, Plant.Clover))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:57:8: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value plants'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .plants("Kincaid") should be([0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:58:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Clover, Plant.Clover, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:58:25: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Clover, Plant.Clover, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:58:39: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Clover, Plant.Clover, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:58:53: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Clover, Plant.Clover, Plant.Grass))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:65:8: value plants is not a member of Map[Int,Array[Char]][0m
+[0m[[0m[31merror[0m] [0m[0mpossible cause: maybe a semicolon is missing before `value plants'?[0m
+[0m[[0m[31merror[0m] [0m[0m      .plants("Larry") should be([0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:66:12: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Violets, Plant.Clover, Plant.Violets))[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:66:25: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Violets, Plant.Clover, Plant.Violets))[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:66:40: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Violets, Plant.Clover, Plant.Violets))[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\kindergarten-garden\src\test\scala\GardenTest.scala:66:54: not found: value Plant[0m
+[0m[[0m[31merror[0m] [0m[0m      List(Plant.Grass, Plant.Violets, Plant.Clover, Plant.Violets))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m45 errors found[0m

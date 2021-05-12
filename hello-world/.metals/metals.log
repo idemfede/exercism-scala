@@ -1,0 +1,309 @@
+[0m2021.04.10 17:52:17 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\Federico\Exercism\scala\hello-world' for client vscode 1.55.1.[0m
+[0m2021.04.10 17:52:17 INFO  time: initialize in 0.32s[0m
+[0m2021.04.10 17:52:17 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.10 17:52:20 WARN  no build target for: C:\Users\Federico\Exercism\scala\hello-world\src\main\scala\HelloWorld.scala[0m
+[0m2021.04.10 17:52:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.10 17:52:24 INFO  time: code lens generation in 2.66s[0m
+[0m2021.04.10 17:52:24 INFO  time: code lens generation in 4.23s[0m
+[0m2021.04.10 17:52:24 INFO  time: code lens generation in 3.15s[0m
+[0m2021.04.10 17:52:27 INFO  running 'C:\Program Files\Java\jdk1.8.0_271\bin\java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Federico\AppData\Local\Temp\metals7827011996905860262\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.10 17:52:31 INFO  [info] Loading settings for project hello-world-build-build from metals.sbt ...[0m
+[0m2021.04.10 17:52:31 INFO  [info] Loading project definition from C:\Users\Federico\Exercism\scala\hello-world\project\project[0m
+[0m2021.04.10 17:52:31 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Federico/Exercism/scala/hello-world/project/project/"), "hello-world-build-build")...[0m
+[0m2021.04.10 17:52:39 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7.jar ...[0m
+[0m2021.04.10 17:52:39 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar ...[0m
+[0m2021.04.10 17:52:39 INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.6/sbt-bloop-1.4.6.jar ...[0m
+[0m2021.04.10 17:52:39 INFO  [info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar (648ms)[0m
+[0m2021.04.10 17:52:39 INFO  [info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.7!gson.jar (727ms)[0m
+[0m2021.04.10 17:52:41 INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.6!sbt-bloop.jar (2028ms)[0m
+[0m2021.04.10 17:52:41 INFO  [info] Done updating.[0m
+[0m2021.04.10 17:52:42 INFO  [info] Loading settings for project hello-world-build from metals.sbt ...[0m
+[0m2021.04.10 17:52:42 INFO  [info] Loading project definition from C:\Users\Federico\Exercism\scala\hello-world\project[0m
+[0m2021.04.10 17:52:42 INFO  [info] Updating ProjectRef(uri("file:/C:/Users/Federico/Exercism/scala/hello-world/project/"), "hello-world-build")...[0m
+[0m2021.04.10 17:52:44 INFO  [info] Done updating.[0m
+[0m2021.04.10 17:52:44 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.2.4/util-position_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:44 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-position_2.12;1.2.4!util-position_2.12.jar(src) (157ms)[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.4/launcher-interface-1.0.4-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.11.1/log4j-core-2.11.1-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#launcher-interface;1.0.4!launcher-interface.jar(src) (687ms)[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.12/0.10.4/jawn-parser_2.12-0.10.4-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-ivy-integration_2.12/1.2.5/zinc-ivy-integration_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-slf4j-impl/2.11.1/log4j-slf4j-impl-2.11.1-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] 	[SUCCESSFUL ] org.spire-math#jawn-parser_2.12;0.10.4!jawn-parser_2.12.jar(src) (330ms)[0m
+[0m2021.04.10 17:52:45 INFO  [info] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-core;2.11.1!log4j-core.jar(src) (736ms)[0m
+[0m2021.04.10 17:52:45 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-ivy-integration_2.12;1.2.5!zinc-ivy-integration_2.12.jar(src) (303ms)[0m
+[0m2021.04.10 17:52:45 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/shaded-scalajson_2.12/1.0.0-M4/shaded-scalajson_2.12-1.0.0-M4-sources.jar ...[0m
+[0m2021.04.10 17:52:45 INFO  [info] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-slf4j-impl;2.11.1!log4j-slf4j-impl.jar(src) (298ms)[0m
+[0m2021.04.10 17:52:46 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#shaded-scalajson_2.12;1.0.0-M4!shaded-scalajson_2.12.jar(src) (237ms)[0m
+[0m2021.04.10 17:52:46 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.2.5/zinc-compile-core_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:46 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-compile-core_2.12;1.2.5!zinc-compile-core_2.12.jar(src) (179ms)[0m
+[0m2021.04.10 17:52:46 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/logic_2.12/1.2.8/logic_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:46 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#logic_2.12;1.2.8!logic_2.12.jar(src) (187ms)[0m
+[0m2021.04.10 17:52:46 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-core_2.12/0.3.0/gigahorse-core_2.12-0.3.0-sources.jar ...[0m
+[0m2021.04.10 17:52:46 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#gigahorse-core_2.12;0.3.0!gigahorse-core_2.12.jar(src) (220ms)[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/sbt/1.2.8/sbt-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#sbt;1.2.8!sbt.jar(src) (166ms)[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.2.2/io_2.12-1.2.2-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#io_2.12;1.2.2!io_2.12.jar(src) (182ms)[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/ipcsocket/ipcsocket/1.0.0/ipcsocket-1.0.0-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.0/jna-4.5.0-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.7/scala-compiler-2.12.7-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-core_2.12/1.2.4/librarymanagement-core_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.2.8/core-macros_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:47 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt.ipcsocket#ipcsocket;1.0.0!ipcsocket.jar(src) (423ms)[0m
+[0m2021.04.10 17:52:47 INFO  [info] 	[SUCCESSFUL ] net.java.dev.jna#jna;4.5.0!jna.jar(src) (471ms)[0m
+[0m2021.04.10 17:52:47 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/completion_2.12/1.2.8/completion_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#core-macros_2.12;1.2.8!core-macros_2.12.jar(src) (691ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-core_2.12;1.2.4!librarymanagement-core_2.12.jar(src) (738ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/tasks_2.12/1.2.8/tasks_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#completion_2.12;1.2.8!completion_2.12.jar(src) (629ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.7!scala-compiler.jar(src) (1006ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#tasks_2.12;1.2.8!tasks_2.12.jar(src) (270ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/task-system_2.12/1.2.8/task-system_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#task-system_2.12;1.2.8!task-system_2.12.jar(src) (163ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile_2.12/1.2.5/zinc-compile_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-compile_2.12;1.2.5!zinc-compile_2.12.jar(src) (180ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] downloading https://repo1.maven.org/maven2/com/squareup/okio/okio/1.12.0/okio-1.12.0-sources.jar ...[0m
+[0m2021.04.10 17:52:49 INFO  [info] 	[SUCCESSFUL ] com.squareup.okio#okio;1.12.0!okio.jar(src) (184ms)[0m
+[0m2021.04.10 17:52:49 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/run_2.12/1.2.8/run_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#run_2.12;1.2.8!run_2.12.jar(src) (173ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.5/scala-parser-combinators_2.12-1.0.5-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-scalajson_2.12/0.8.2/sjson-new-scalajson_2.12-0.8.2-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.5!scala-parser-combinators_2.12.jar(src) (223ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/main-settings_2.12/1.2.8/main-settings_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src) (339ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#sjson-new-scalajson_2.12;0.8.2!sjson-new-scalajson_2.12.jar(src) (346ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/gigahorse-okhttp_2.12/0.3.0/gigahorse-okhttp_2.12-0.3.0-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#main-settings_2.12;1.2.8!main-settings_2.12.jar(src) (293ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.2.5/zinc-classpath_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src) (287ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#gigahorse-okhttp_2.12;0.3.0!gigahorse-okhttp_2.12.jar(src) (326ms)[0m
+[0m2021.04.10 17:52:50 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-classpath_2.12;1.2.5!zinc-classpath_2.12.jar(src) (335ms)[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp/3.7.0/okhttp-3.7.0-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.12/0.4.2/fastparse-utils_2.12-0.4.2-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp;3.7.0!okhttp.jar(src) (320ms)[0m
+[0m2021.04.10 17:52:51 INFO  [info] 	[SUCCESSFUL ] com.lihaoyi#fastparse-utils_2.12;0.4.2!fastparse-utils_2.12.jar(src) (335ms)[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.3.1/protobuf-java-3.3.1-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/swoval/apple-file-events/1.3.2/apple-file-events-1.3.2-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] 	[SUCCESSFUL ] com.google.protobuf#protobuf-java;3.3.1!protobuf-java.jar(src) (410ms)[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/ssl-config-core_2.12/0.2.2/ssl-config-core_2.12-0.2.2-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] 	[SUCCESSFUL ] com.swoval#apple-file-events;1.3.2!apple-file-events.jar(src) (287ms)[0m
+[0m2021.04.10 17:52:51 INFO  [info] downloading https://repo1.maven.org/maven2/com/google/code/gson/gson/2.7/gson-2.7-sources.jar ...[0m
+[0m2021.04.10 17:52:51 INFO  [info] 	[SUCCESSFUL ] com.typesafe#ssl-config-core_2.12;0.2.2!ssl-config-core_2.12.jar(src) (337ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/com/github/cb372/scalacache-core_2.12/0.20.0/scalacache-core_2.12-0.20.0-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] com.google.code.gson#gson;2.7!gson.jar(src) (315ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] com.github.cb372#scalacache-core_2.12;0.20.0!scalacache-core_2.12.jar(src) (240ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.2.8/collections_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/com/trueaccord/lenses/lenses_2.12/0.4.12/lenses_2.12-0.4.12-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#collections_2.12;1.2.8!collections_2.12.jar(src) (301ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src) (335ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.2.5/zinc_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] com.trueaccord.lenses#lenses_2.12;0.4.12!lenses_2.12.jar(src) (279ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.11.1/log4j-api-2.11.1-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc_2.12;1.2.5!zinc_2.12.jar(src) (359ms)[0m
+[0m2021.04.10 17:52:52 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/protocol_2.12/1.2.8/protocol_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:52 INFO  [info] 	[SUCCESSFUL ] org.apache.logging.log4j#log4j-api;2.11.1!log4j-api.jar(src) (382ms)[0m
+[0m2021.04.10 17:52:53 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#protocol_2.12;1.2.8!protocol_2.12.jar(src) (220ms)[0m
+[0m2021.04.10 17:52:53 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/sbinary_2.12/0.5.0/sbinary_2.12-0.5.0-sources.jar ...[0m
+[0m2021.04.10 17:52:53 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/testing_2.12/1.2.8/testing_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:53 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#sbinary_2.12;0.5.0!sbinary_2.12.jar(src) (271ms)[0m
+[0m2021.04.10 17:52:53 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#testing_2.12;1.2.8!testing_2.12.jar(src) (283ms)[0m
+[0m2021.04.10 17:52:53 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-sbt-redux_2.12/1.2.8/scripted-sbt-redux_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#scripted-sbt-redux_2.12;1.2.8!scripted-sbt-redux_2.12.jar(src) (171ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.2.4/util-control_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-murmurhash_2.12/0.8.2/sjson-new-murmurhash_2.12-0.8.2-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-control_2.12;1.2.4!util-control_2.12.jar(src) (221ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.5.0/jna-platform-4.5.0-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.12/0.1.3/sourcecode_2.12-0.1.3-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/template-resolver/0.1/template-resolver-0.1-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#sjson-new-murmurhash_2.12;0.8.2!sjson-new-murmurhash_2.12.jar(src) (431ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/main_2.12/1.2.8/main_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] com.lihaoyi#sourcecode_2.12;0.1.3!sourcecode_2.12.jar(src) (379ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.2.5/zinc-persist_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] net.java.dev.jna#jna-platform;4.5.0!jna-platform.jar(src) (513ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#template-resolver;0.1!template-resolver.jar(src) (407ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#main_2.12;1.2.8!main_2.12.jar(src) (356ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-persist_2.12;1.2.5!zinc-persist_2.12.jar(src) (291ms)[0m
+[0m2021.04.10 17:52:54 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.2.5/zinc-core_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.2.5/zinc-classfile_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-core_2.12;1.2.5!zinc-core_2.12.jar(src) (275ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-classfile_2.12;1.2.5!zinc-classfile_2.12.jar(src) (199ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.2.5/compiler-interface-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#compiler-interface;1.2.5!compiler-interface.jar(src) (188ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/librarymanagement-ivy_2.12/1.2.4/librarymanagement-ivy_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#librarymanagement-ivy_2.12;1.2.4!librarymanagement-ivy_2.12.jar(src) (204ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/com/lmax/disruptor/3.4.2/disruptor-3.4.2-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.2.4/util-relation_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.2.5/zinc-apiinfo_2.12-1.2.5-sources.jar ...[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] com.lmax#disruptor;3.4.2!disruptor.jar(src) (323ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-relation_2.12;1.2.4!util-relation_2.12.jar(src) (307ms)[0m
+[0m2021.04.10 17:52:55 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#zinc-apiinfo_2.12;1.2.5!zinc-apiinfo_2.12.jar(src) (294ms)[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/command_2.12/1.2.8/command_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#command_2.12;1.2.8!command_2.12.jar(src) (176ms)[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/com/jcraft/jsch/0.1.54/jsch-0.1.54-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/com/squareup/okhttp3/okhttp-urlconnection/3.7.0/okhttp-urlconnection-3.7.0-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.7/scala-reflect-2.12.7-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.2.4/util-logging_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:56 INFO  [info] 	[SUCCESSFUL ] com.squareup.okhttp3#okhttp-urlconnection;3.7.0!okhttp-urlconnection.jar(src) (615ms)[0m
+[0m2021.04.10 17:52:56 INFO  [info] 	[SUCCESSFUL ] com.jcraft#jsch;0.1.54!jsch.jar(src) (653ms)[0m
+[0m2021.04.10 17:52:56 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.7!scala-library.jar(src) (666ms)[0m
+[0m2021.04.10 17:52:56 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.7!scala-reflect.jar(src) (647ms)[0m
+[0m2021.04.10 17:52:57 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/scripted-plugin_2.12/1.2.8/scripted-plugin_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:57 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-logging_2.12;1.2.4!util-logging_2.12.jar(src) (449ms)[0m
+[0m2021.04.10 17:52:57 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#scripted-plugin_2.12;1.2.8!scripted-plugin_2.12.jar(src) (234ms)[0m
+[0m2021.04.10 17:52:57 INFO  [info] downloading https://repo1.maven.org/maven2/jline/jline/2.14.6/jline-2.14.6-sources.jar ...[0m
+[0m2021.04.10 17:52:57 INFO  [info] 	[SUCCESSFUL ] jline#jline;2.14.6!jline.jar(src) (188ms)[0m
+[0m2021.04.10 17:52:57 INFO  [info] downloading https://repo1.maven.org/maven2/com/github/ben-manes/caffeine/caffeine/2.5.6/caffeine-2.5.6-sources.jar ...[0m
+[0m2021.04.10 17:52:57 INFO  [info] 	[SUCCESSFUL ] com.github.ben-manes.caffeine#caffeine;2.5.6!caffeine.jar(src) (207ms)[0m
+[0m2021.04.10 17:52:57 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.2.4/util-cache_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:57 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.2.4/util-interface-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-cache_2.12;1.2.4!util-cache_2.12.jar(src) (306ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-interface;1.2.4!util-interface.jar(src) (328ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.2.8/test-agent-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#test-agent;1.2.8!test-agent.jar(src) (214ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/typesafe/config/1.2.0/config-1.2.0-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.4.6/sbt-bloop-1.4.6-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/trueaccord/scalapb/scalapb-runtime_2.12/0.6.0/scalapb-runtime_2.12-0.6.0-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] com.typesafe#config;1.2.0!config.jar(src) (282ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] ch.epfl.scala#sbt-bloop;1.4.6!sbt-bloop.jar(src) (262ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.12/0.4.2/fastparse_2.12-0.4.2-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-scripted_2.12/1.2.4/util-scripted_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] com.trueaccord.scalapb#scalapb-runtime_2.12;0.6.0!scalapb-runtime_2.12.jar(src) (301ms)[0m
+[0m2021.04.10 17:52:58 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/actions_2.12/1.2.8/actions_2.12-1.2.8-sources.jar ...[0m
+[0m2021.04.10 17:52:58 INFO  [info] 	[SUCCESSFUL ] com.lihaoyi#fastparse_2.12;0.4.2!fastparse_2.12.jar(src) (381ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-scripted_2.12;1.2.4!util-scripted_2.12.jar(src) (368ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#actions_2.12;1.2.8!actions_2.12.jar(src) (243ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] downloading https://repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.0/reactive-streams-1.0.0-sources.jar ...[0m
+[0m2021.04.10 17:52:59 INFO  [info] 	[SUCCESSFUL ] org.reactivestreams#reactive-streams;1.0.0!reactive-streams.jar(src) (174ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/util-tracking_2.12/1.2.4/util-tracking_2.12-1.2.4-sources.jar ...[0m
+[0m2021.04.10 17:52:59 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar ...[0m
+[0m2021.04.10 17:52:59 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#util-tracking_2.12;1.2.4!util-tracking_2.12.jar(src) (351ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt#test-interface;1.0!test-interface.jar(src) (336ms)[0m
+[0m2021.04.10 17:52:59 INFO  [info] downloading https://repo1.maven.org/maven2/com/eed3si9n/sjson-new-core_2.12/0.8.2/sjson-new-core_2.12-0.8.2-sources.jar ...[0m
+[0m2021.04.10 17:53:01 INFO  [info] downloading https://repo1.maven.org/maven2/com/github/cb372/scalacache-caffeine_2.12/0.20.0/scalacache-caffeine_2.12-0.20.0-sources.jar ...[0m
+[0m2021.04.10 17:53:01 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-sbt/ivy/ivy/2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832/ivy-2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832-sources.jar ...[0m
+[0m2021.04.10 17:53:01 INFO  [info] 	[SUCCESSFUL ] com.eed3si9n#sjson-new-core_2.12;0.8.2!sjson-new-core_2.12.jar(src) (353ms)[0m
+[0m2021.04.10 17:53:01 INFO  [info] 	[SUCCESSFUL ] com.github.cb372#scalacache-caffeine_2.12;0.20.0!scalacache-caffeine_2.12.jar(src) (530ms)[0m
+[0m2021.04.10 17:53:01 INFO  [info] 	[SUCCESSFUL ] org.scala-sbt.ivy#ivy;2.3.0-sbt-cb9cc189e9f3af519f9f102e6c5d446488ff6832!ivy.jar(src) (644ms)[0m
+[0m2021.04.10 17:53:02 INFO  [success] Generated .bloop\hello-world-build.json[0m
+[0m2021.04.10 17:53:02 INFO  [success] Total time: 19 s, completed 10/04/2021 17:53:02[0m
+[0m2021.04.10 17:53:02 INFO  [info] Loading settings for project hello-world from build.sbt ...[0m
+[0m2021.04.10 17:53:02 INFO  [info] Set current project to hello-world (in build file:/C:/Users/Federico/Exercism/scala/hello-world/)[0m
+[0m2021.04.10 17:53:02 INFO  [info] Updating ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8.jar ...[0m
+[0m2021.04.10 17:53:04 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle) (808ms)[0m
+[0m2021.04.10 17:53:06 INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(bundle) (1600ms)[0m
+[0m2021.04.10 17:53:08 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar (4469ms)[0m
+[0m2021.04.10 17:53:10 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar (5542ms)[0m
+[0m2021.04.10 17:53:10 INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(bundle) (5911ms)[0m
+[0m2021.04.10 17:53:10 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar (6145ms)[0m
+[0m2021.04.10 17:53:10 INFO  [info] Done updating.[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.8/scala-reflect-2.12.8-sources.jar ...[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1-sources.jar ...[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5-sources.jar ...[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.8/scala-library-2.12.8-sources.jar ...[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4-sources.jar ...[0m
+[0m2021.04.10 17:53:10 INFO  [info] downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1-sources.jar ...[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(src) (839ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.8/scala-compiler-2.12.8-sources.jar ...[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src) (983ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(src) (1024ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(src) (1024ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.8!scala-library.jar(src) (1352ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(src) (1390ms)[0m
+[0m2021.04.10 17:53:11 INFO  [info] 	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src) (722ms)[0m
+[0m2021.04.10 17:53:11 INFO  [success] Generated .bloop\hello-world-test.json[0m
+[0m2021.04.10 17:53:11 INFO  [success] Generated .bloop\hello-world.json[0m
+[0m2021.04.10 17:53:11 INFO  [success] Total time: 9 s, completed 10/04/2021 17:53:12[0m
+[0m2021.04.10 17:53:12 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.10 17:53:12 INFO  time: ran 'sbt bloopInstall' in 44s[0m
+[0m2021.04.10 17:53:12 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 17523'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.8...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from 'c:\Users\Federico\Exercism\scala\hello-world\.bloop'...
+[0m[32m[D][0m Loading project from 'c:\Users\Federico\Exercism\scala\hello-world\.bloop\hello-world.json'
+[0m[32m[D][0m Loading project from 'c:\Users\Federico\Exercism\scala\hello-world\.bloop\hello-world-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.8.
+[0m[32m[D][0m   => C:\Users\Federico\.ivy2\cache\jline\jline\jars\jline-2.14.6.jar
+[0m[32m[D][0m   => C:\Users\Federico\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.0.6.jar
+[0m[32m[D][0m   => C:\Users\Federico\.ivy2\cache\org.scala-lang\scala-compiler\jars\scala-compiler-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Federico\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.12.8.jar
+[0m[32m[D][0m   => C:\Users\Federico\.ivy2\cache\org.scala-lang\scala-reflect\jars\scala-reflect-2.12.8.jar
+[0m[32m[D][0m Missing analysis file for project 'hello-world-test'
+[0m[32m[D][0m Missing analysis file for project 'hello-world'
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:17523...
+The server is listening for incoming connections at tcp://127.0.0.1:17523...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.10 17:53:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.10 17:53:43 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol tcp --port 24550'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at 127.0.0.1:24550...
+The server is listening for incoming connections at tcp://127.0.0.1:24550...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.10 17:53:43 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Federico\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+[0m2021.04.10 17:53:43 INFO  time: Connected to build server in 30s[0m
+[0m2021.04.10 17:53:43 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.10 17:53:47 INFO  time: indexed workspace in 3.63s[0m
+[0m2021.04.10 17:54:03 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.04.10 17:54:11 INFO  compiling hello-world-test (1 scala source)[0m
+[0m2021.04.10 17:54:11 INFO  time: compiled hello-world in 7.83s[0m
+[0m2021.04.10 17:54:11 INFO  time: compiled hello-world-test in 0.18s[0m
+[0m2021.04.10 17:56:54 INFO  time: evaluated worksheet 'Tes.worksheet.sc' in 10s[0m
+abr 10, 2021 5:56:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46
+abr 10, 2021 5:56:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 54
+[0m2021.04.10 17:56:56 INFO  time: evaluated worksheet 'Tes.worksheet.sc' in 0.3s[0m
+[0m2021.04.10 17:57:00 INFO  time: evaluated worksheet 'Tes.worksheet.sc' in 0.34s[0m
+[0m2021.04.10 17:57:14 INFO  time: evaluated worksheet 'Tes.worksheet.sc' in 0.19s[0m
+[0m2021.04.10 17:57:17 INFO  time: evaluated worksheet 'Tes.worksheet.sc' in 0.15s[0m
+[0m2021.04.10 17:59:12 INFO  time: evaluated worksheet 'algo.worksheet.sc' in 0.23s[0m
+abr 10, 2021 5:59:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+abr 10, 2021 5:59:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 161
+[0m2021.04.10 17:59:17 INFO  time: evaluated worksheet 'algo.worksheet.sc' in 0.1s[0m
+[0m2021.04.10 17:59:24 INFO  time: evaluated worksheet 'algo.worksheet.sc' in 0.38s[0m
+abr 10, 2021 5:59:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 195
+[0m2021.04.10 17:59:41 INFO  compiling hello-world (1 scala source)[0m
+[0m2021.04.10 17:59:41 INFO  time: compiled hello-world in 0.22s[0m
+[0m2021.04.10 18:09:33 INFO  shutting down Metals[0m
+[0m2021.04.10 18:09:33 INFO  Shut down connection with build server.[0m
+[0m2021.04.10 18:09:33 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...

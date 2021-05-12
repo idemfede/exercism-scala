@@ -1,0 +1,34 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:7:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("word").countWords should be(Map(("word", 1)))[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:12:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("one of each").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:18:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("one fish two fish red fish blue fish").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:24:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("one,two,three").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:30:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("one,\ntwo,\nthree").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:36:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("car: carpet as java: javascript!!&@$%^&").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:42:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("testing, 1, 2 testing").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:48:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("go Go GO Stop stop").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:54:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("First: don\'t laugh. Then: don\'t cry.").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:60:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount("Joe can\'t tell between \'large\' and large.").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\word-count\src\test\scala\WordCountTest.scala:71:5: not found: value WordCount[0m
+[0m[[0m[31merror[0m] [0m[0m    WordCount(" multiple   whitespaces").countWords should be([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m11 errors found[0m

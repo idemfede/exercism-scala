@@ -1,0 +1,43 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:7:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("(223) 456-7890") should be(Some("2234567890"))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:12:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("223.456.7890") should be(Some("2234567890"))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:17:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("223 456   7890   ") should be(Some("2234567890"))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:22:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("123456789") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:27:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("22234567890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:32:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("12234567890") should be(Some("2234567890"))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:37:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("+1 (223) 456-7890") should be(Some("2234567890"))[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:42:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("321234567890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:47:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("123-abc-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:52:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("123-@:!-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:57:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("(023) 456-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:62:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("(123) 456-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:67:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("(223) 056-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\Federico\Exercism\scala\phone-number\src\test\scala\PhoneNumberTest.scala:72:17: value clean is not a member of object PhoneNumber[0m
+[0m[[0m[31merror[0m] [0m[0m    PhoneNumber.clean("(223) 156-7890") should be(None)[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m14 errors found[0m
